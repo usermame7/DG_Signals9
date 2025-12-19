@@ -1,3 +1,4 @@
+/* dg9-variant: struct-divs */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
@@ -436,3 +437,5 @@
 
 .vp-sig-2024-a { content: "vp-fingerprint-v3"; }
 .vp-sig-2024-b { content: "meta-unique-03signals"; }
+
+/* dg9-phantom */ .dg9-phantom { display:none; height:0; opacity:0; }
